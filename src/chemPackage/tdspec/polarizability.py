@@ -1,6 +1,6 @@
 from __future__ import print_function, division
 from numpy import array, where, append, arange, zeros
-from numpy import row_stack, column_stack, argsort
+from numpy import column_stack, argsort
 from chem import collect
 
 def collect_frequency(self, f, indices):

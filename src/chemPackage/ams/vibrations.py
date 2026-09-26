@@ -1,4 +1,4 @@
-from numpy import array, append, argsort, row_stack, reshape, sqrt
+from numpy import array, append, argsort, reshape, sqrt
 
 def collect_frequencies(self, f, indices):
     '''Collect frequencies and IR intensities.'''

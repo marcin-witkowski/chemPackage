@@ -1,5 +1,5 @@
 from __future__ import print_function, division
-from numpy import array, where, append, argsort, row_stack
+from numpy import array, where, append, argsort
 from ..constants import ANGSTROM2BOHR as A2B
 from ..constants import BOHR2ANGSTROM as B2A
 import numpy

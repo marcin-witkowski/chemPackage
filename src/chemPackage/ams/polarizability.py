@@ -1,5 +1,5 @@
 from numpy import array, where, append, arange, zeros
-from numpy import row_stack, column_stack, argsort
+from numpy import column_stack, argsort
 from chemPackage import collect
 
 def collect_polarizability(self, f, indices):

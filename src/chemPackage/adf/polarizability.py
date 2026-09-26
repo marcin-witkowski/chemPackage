@@ -1,6 +1,6 @@
 from __future__ import print_function, division
 from numpy import array, where, append, arange, zeros
-from numpy import row_stack, column_stack, argsort
+from numpy import vstack, column_stack, argsort
 from chemPackage import collect
 
 def collect_polarizability(self, f, indices):
@@ -516,7 +516,7 @@ def __atomic(self, fo):
             # organize them into tensors by atom.
             atmpol = column_stack((xp,yp,zp))
             try:
-                self.polarizability_atomic = row_stack((
+                self.polarizability_atomic = vstack((
                                  self.polarizability_atomic, atmpol))
             except ValueError:
                 self.polarizability_atomic = atmpol
